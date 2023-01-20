@@ -1,0 +1,12 @@
+mode:
+  type: Standalone
+  repository:
+    type: JDBC
+    
+dataSources:
+  db0:
+    dataSourceClassName: com.zaxxer.hikari.HikariDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    jdbcUrl: jdbc:mysql://localhost:3306/db1
+    username: root
+    password:
